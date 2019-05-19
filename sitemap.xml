@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ralphbrooks.com/about/ralph_brooks/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ralphbrooks.com/</loc>
     <priority>0</priority>
   </url>
