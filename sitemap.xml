@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ralphbrooks.com/about/ralph_brooks/</loc>
+    <loc>https://ralphabrooks.com/about/ralph_brooks/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ralphbrooks.com/</loc>
+    <loc>https://ralphabrooks.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ralphbrooks.com/linux/environment/setting_environment_variables_from_script/</loc>
+    <loc>https://ralphabrooks.com/linux/environment/setting_environment_variables_from_script/</loc>
   </url>
   
 </urlset>
