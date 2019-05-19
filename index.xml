@@ -20,7 +20,8 @@
 The file might look like
 environ.sh
 export APIKEY=&amp;#34;Sample API key&amp;#34; To use this on the spun-up machine, use the dot space command as follows:
-. environ.sh</description>
+. environ.sh
+This will add the environment variables to the executing shell.</description>
     </item>
     
   </channel>
