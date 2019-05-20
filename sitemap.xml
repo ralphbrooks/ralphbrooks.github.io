@@ -8,6 +8,10 @@
   </url>
   
   <url>
+    <loc>https://ralphbrooks.github.io/demo/links_to_demo/</loc>
+  </url>
+  
+  <url>
     <loc>https://ralphbrooks.github.io/</loc>
     <priority>0</priority>
   </url>

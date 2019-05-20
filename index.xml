@@ -22,6 +22,16 @@
     </item>
     
     <item>
+      <title>NLP Demo</title>
+      <link>https://ralphbrooks.github.io/demo/links_to_demo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ralphbrooks.github.io/demo/links_to_demo/</guid>
+      <description>Currently, I am working on ways to detect emotion in language. Some of my work is at:
+ Toxic Classififer Detection of sentiment vs neutral  </description>
+    </item>
+    
+    <item>
       <title>Setting Environment Variables From Script</title>
       <link>https://ralphbrooks.github.io/linux/environment/setting_environment_variables_from_script/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
