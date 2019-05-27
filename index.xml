@@ -12,12 +12,14 @@
     
     
     <item>
-      <title>Second</title>
-      <link>https://ralphbrooks.github.io/articles/second/</link>
+      <title>Introduction and Links to Demo</title>
+      <link>https://ralphbrooks.github.io/articles/intro_and_links_to_demo/</link>
       <pubDate>Mon, 27 May 2019 12:25:53 -0400</pubDate>
       
-      <guid>https://ralphbrooks.github.io/articles/second/</guid>
-      <description>This is the second article</description>
+      <guid>https://ralphbrooks.github.io/articles/intro_and_links_to_demo/</guid>
+      <description>I am a data scientist and machine learning engineer in Frisco, TX where I am working on items at the interaction of deep learning, natural language processing, and Bayesian statistics.
+Currently, I am working on ways to detect emotion in language. Some of my work is at:
+ Toxic Classififer Detection of sentiment vs neutral  </description>
     </item>
     
     <item>
@@ -31,16 +33,6 @@
     </item>
     
     <item>
-      <title>NLP Demo</title>
-      <link>https://ralphbrooks.github.io/demo/links_to_demo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ralphbrooks.github.io/demo/links_to_demo/</guid>
-      <description>Currently, I am working on ways to detect emotion in language. Some of my work is at:
- Toxic Classififer Detection of sentiment vs neutral  </description>
-    </item>
-    
-    <item>
       <title>Setting Environment Variables From Script</title>
       <link>https://ralphbrooks.github.io/linux/environment/setting_environment_variables_from_script/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -51,15 +43,6 @@ The file might look like
 environ.sh
 export APIKEY=&amp;#34;Sample API key&amp;#34; To use this on the spun-up machine, use the dot space command as follows:
 . environ.sh</description>
-    </item>
-    
-    <item>
-      <title>Welcome to my blog</title>
-      <link>https://ralphbrooks.github.io/articles/testarticle/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ralphbrooks.github.io/articles/testarticle/</guid>
-      <description>This is an intro to my blog.</description>
     </item>
     
   </channel>
