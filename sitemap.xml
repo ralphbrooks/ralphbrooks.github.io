@@ -3,23 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ralphbrooks.github.io/articles/intro_and_links_to_demo/</loc>
-    <lastmod>2019-05-27T12:25:53-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ralphbrooks.github.io/</loc>
-    <lastmod>2019-05-27T12:25:53-04:00</lastmod>
+    <loc>https://ralphabrooks.com/</loc>
+    <lastmod>2019-05-27T12:54:58-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ralphbrooks.github.io/linux/environment/setting_environment_variables_from_script/</loc>
+    <loc>https://ralphabrooks.com/articles/third/</loc>
+    <lastmod>2019-05-27T12:54:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ralphabrooks.com/articles/intro_and_links_to_demo/</loc>
     <lastmod>2019-05-27T12:25:53-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ralphbrooks.github.io/about/ralph_brooks/</loc>
+    <loc>https://ralphabrooks.com/linux/environment/setting_environment_variables_from_script/</loc>
+    <lastmod>2019-05-27T12:25:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ralphabrooks.com/about/ralph_brooks/</loc>
     <lastmod>2017-12-20T11:53:49-07:00</lastmod>
   </url>
   

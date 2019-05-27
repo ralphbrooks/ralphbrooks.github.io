@@ -2,21 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ralph Brooks</title>
-    <link>https://ralphbrooks.github.io/</link>
+    <link>https://ralphabrooks.com/</link>
     <description>Recent content on Ralph Brooks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 May 2019 12:25:53 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2019 12:54:58 -0400</lastBuildDate>
     
-	<atom:link href="https://ralphbrooks.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ralphabrooks.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Third</title>
+      <link>https://ralphabrooks.com/articles/third/</link>
+      <pubDate>Mon, 27 May 2019 12:54:58 -0400</pubDate>
+      
+      <guid>https://ralphabrooks.com/articles/third/</guid>
+      <description>This is the third article.</description>
+    </item>
+    
+    <item>
       <title>Introduction and Links to Demo</title>
-      <link>https://ralphbrooks.github.io/articles/intro_and_links_to_demo/</link>
+      <link>https://ralphabrooks.com/articles/intro_and_links_to_demo/</link>
       <pubDate>Mon, 27 May 2019 12:25:53 -0400</pubDate>
       
-      <guid>https://ralphbrooks.github.io/articles/intro_and_links_to_demo/</guid>
+      <guid>https://ralphabrooks.com/articles/intro_and_links_to_demo/</guid>
       <description>I am a data scientist and machine learning engineer in Frisco, TX where I am working on items at the interaction of deep learning, natural language processing, and Bayesian statistics.
 Currently, I am working on ways to detect emotion in language. Some of my work is at:
  Toxic Classififer Detection of sentiment vs neutral  </description>
@@ -24,10 +33,10 @@ Currently, I am working on ways to detect emotion in language. Some of my work i
     
     <item>
       <title>Setting Environment Variables From Script</title>
-      <link>https://ralphbrooks.github.io/linux/environment/setting_environment_variables_from_script/</link>
+      <link>https://ralphabrooks.com/linux/environment/setting_environment_variables_from_script/</link>
       <pubDate>Mon, 27 May 2019 12:25:53 -0400</pubDate>
       
-      <guid>https://ralphbrooks.github.io/linux/environment/setting_environment_variables_from_script/</guid>
+      <guid>https://ralphabrooks.com/linux/environment/setting_environment_variables_from_script/</guid>
       <description>If you are spinning up different machines, it may be helpful to have environment variables set via script.
 The file might look like
 environ.sh
@@ -37,10 +46,10 @@ export APIKEY=&amp;#34;Sample API key&amp;#34; To use this on the spun-up machin
     
     <item>
       <title>About Ralph Brooks</title>
-      <link>https://ralphbrooks.github.io/about/ralph_brooks/</link>
+      <link>https://ralphabrooks.com/about/ralph_brooks/</link>
       <pubDate>Wed, 20 Dec 2017 11:53:49 -0700</pubDate>
       
-      <guid>https://ralphbrooks.github.io/about/ralph_brooks/</guid>
+      <guid>https://ralphabrooks.com/about/ralph_brooks/</guid>
       <description>I am a data scientist and machine learning engineer in Frisco, TX.
  Twitter: @ralphbrooks  </description>
     </item>
