@@ -23,19 +23,9 @@ Currently, I am working on ways to detect emotion in language. Some of my work i
     </item>
     
     <item>
-      <title>About Ralph Brooks</title>
-      <link>https://ralphbrooks.github.io/about/ralph_brooks/</link>
-      <pubDate>Wed, 20 Dec 2017 11:53:49 -0700</pubDate>
-      
-      <guid>https://ralphbrooks.github.io/about/ralph_brooks/</guid>
-      <description>I am a data scientist and machine learning engineer in Frisco, TX.
- Twitter: @ralphbrooks  </description>
-    </item>
-    
-    <item>
       <title>Setting Environment Variables From Script</title>
       <link>https://ralphbrooks.github.io/linux/environment/setting_environment_variables_from_script/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 May 2019 12:25:53 -0400</pubDate>
       
       <guid>https://ralphbrooks.github.io/linux/environment/setting_environment_variables_from_script/</guid>
       <description>If you are spinning up different machines, it may be helpful to have environment variables set via script.
@@ -43,6 +33,16 @@ The file might look like
 environ.sh
 export APIKEY=&amp;#34;Sample API key&amp;#34; To use this on the spun-up machine, use the dot space command as follows:
 . environ.sh</description>
+    </item>
+    
+    <item>
+      <title>About Ralph Brooks</title>
+      <link>https://ralphbrooks.github.io/about/ralph_brooks/</link>
+      <pubDate>Wed, 20 Dec 2017 11:53:49 -0700</pubDate>
+      
+      <guid>https://ralphbrooks.github.io/about/ralph_brooks/</guid>
+      <description>I am a data scientist and machine learning engineer in Frisco, TX.
+ Twitter: @ralphbrooks  </description>
     </item>
     
   </channel>
