@@ -45,6 +45,17 @@ export APIKEY=&amp;#34;Sample API key&amp;#34; To use this on the spun-up machin
     </item>
     
     <item>
+      <title>Using a confusion matrix within Keras</title>
+      <link>https://ralphabrooks.com/deep_learning/keras/using_confusion_matrix_with_keras/</link>
+      <pubDate>Mon, 27 May 2019 12:25:53 -0400</pubDate>
+      
+      <guid>https://ralphabrooks.com/deep_learning/keras/using_confusion_matrix_with_keras/</guid>
+      <description>Assuming that y_label are the actual gold standard labels that you want to evaluate, you can use sklearn&amp;rsquo;s confusion matrix function in order to evaluate a keras model.
+Code would look like the following
+import numpy as np from sklearn.metrics import confusion_matrix model = &amp;lt;keras model&amp;gt; y_pred = model.predict(test_data, test_labels) y_pred_max = np.apply_along_axis(lambda x : np.argmax(x) +1, axis =1, arr=y_pred) cm = confusion_matrix(test_label, y_pred_max)</description>
+    </item>
+    
+    <item>
       <title>About Ralph Brooks</title>
       <link>https://ralphabrooks.com/about/ralph_brooks/</link>
       <pubDate>Wed, 20 Dec 2017 11:53:49 -0700</pubDate>
