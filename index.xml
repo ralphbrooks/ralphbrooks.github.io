@@ -6,19 +6,10 @@
     <description>Recent content on Ralph Brooks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 May 2019 12:54:58 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2019 12:25:53 -0400</lastBuildDate>
     
 	<atom:link href="https://ralphabrooks.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Third</title>
-      <link>https://ralphabrooks.com/articles/third/</link>
-      <pubDate>Mon, 27 May 2019 12:54:58 -0400</pubDate>
-      
-      <guid>https://ralphabrooks.com/articles/third/</guid>
-      <description>This is the third article. It needs to be deleted.</description>
-    </item>
     
     <item>
       <title>Introduction and Links to NLP Demo</title>
@@ -32,12 +23,12 @@ Currently, I am working on ways to detect emotion in language. Some of my work i
     </item>
     
     <item>
-      <title>Setting Environment Variables From Script</title>
+      <title>Setting Environment Variables From A Linux Script</title>
       <link>https://ralphabrooks.com/linux/environment/setting_environment_variables_from_script/</link>
       <pubDate>Mon, 27 May 2019 12:25:53 -0400</pubDate>
       
       <guid>https://ralphabrooks.com/linux/environment/setting_environment_variables_from_script/</guid>
-      <description>If you are spinning up different machines, it may be helpful to have environment variables set via script.
+      <description>If you are spinning up different machines, it may be helpful to set the environment variables for that machine from a linux script.
 The file might look like
 environ.sh
 export APIKEY=&amp;#34;Sample API key&amp;#34; To use this on the spun-up machine, use the dot space command as follows:
@@ -52,7 +43,7 @@ export APIKEY=&amp;#34;Sample API key&amp;#34; To use this on the spun-up machin
       <guid>https://ralphabrooks.com/deep_learning/keras/using_confusion_matrix_with_keras/</guid>
       <description>Assuming that y_label are the actual gold standard labels that you want to evaluate, you can use sklearn&amp;rsquo;s confusion matrix function in order to evaluate a keras model.
 Code would look like the following
-import numpy as np from sklearn.metrics import confusion_matrix model = &amp;lt;keras model&amp;gt; y_pred = model.predict(test_data, test_labels) y_pred_max = np.apply_along_axis(lambda x : np.argmax(x) +1, axis =1, arr=y_pred) cm = confusion_matrix(test_label, y_pred_max)</description>
+import numpy as np from sklearn.metrics import confusion_matrix model = &amp;lt;use your favorite keras model here&amp;gt; y_pred = model.predict(test_data, test_labels) y_pred_max = np.apply_along_axis(lambda x : np.argmax(x) +1, axis =1, arr=y_pred) cm = confusion_matrix(test_label, y_pred_max)</description>
     </item>
     
     <item>
