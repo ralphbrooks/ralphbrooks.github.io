@@ -3,14 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ralphbrooks.github.io/about/ralph_brooks/</loc>
-    <lastmod>2017-12-20T11:53:49-07:00</lastmod>
+    <loc>https://ralphbrooks.github.io/</loc>
+    <lastmod>2019-05-27T12:25:53-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ralphbrooks.github.io/</loc>
+    <loc>https://ralphbrooks.github.io/articles/second/</loc>
+    <lastmod>2019-05-27T12:25:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ralphbrooks.github.io/about/ralph_brooks/</loc>
     <lastmod>2017-12-20T11:53:49-07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
