@@ -12,6 +12,20 @@
     
     
     <item>
+      <title>How to Set Environment Variables From A Linux Script</title>
+      <link>https://ralphabrooks.com/linux/environment/setting_environment_variables_from_script/</link>
+      <pubDate>Mon, 27 May 2019 12:25:53 -0400</pubDate>
+      
+      <guid>https://ralphabrooks.com/linux/environment/setting_environment_variables_from_script/</guid>
+      <description>If you utilize the cloud, odds are that there has been a time where you spun up a machine and needed to set the environment variables from a linux script.
+The process to do this is:
+1) Create a file that contains environment variables that you want to export.
+environ.sh
+export APIKEY=&amp;#34;Sample API key&amp;#34; 2) Change the permissions of the environment file:
+chmod +x environ.sh 3) Execute the script with a dot space prefix.</description>
+    </item>
+    
+    <item>
       <title>Introduction and Links to NLP Demo</title>
       <link>https://ralphabrooks.com/articles/intro_and_links_to_demo/</link>
       <pubDate>Mon, 27 May 2019 12:25:53 -0400</pubDate>
@@ -20,19 +34,6 @@
       <description>I am a data scientist and machine learning engineer in Frisco, TX where I am working on items at the interaction of deep learning, natural language processing, and Bayesian statistics.
 Currently, I am working on ways to detect emotion in language. Some of my work is at:
  Toxic Classififer Detection of sentiment vs neutral  </description>
-    </item>
-    
-    <item>
-      <title>Setting Environment Variables From A Linux Script</title>
-      <link>https://ralphabrooks.com/linux/environment/setting_environment_variables_from_script/</link>
-      <pubDate>Mon, 27 May 2019 12:25:53 -0400</pubDate>
-      
-      <guid>https://ralphabrooks.com/linux/environment/setting_environment_variables_from_script/</guid>
-      <description>If you are spinning up different machines, it may be helpful to set the environment variables for that machine from a linux script.
-The file might look like
-environ.sh
-export APIKEY=&amp;#34;Sample API key&amp;#34; To use this on the spun-up machine, use the dot space command as follows:
-. environ.sh</description>
     </item>
     
     <item>
