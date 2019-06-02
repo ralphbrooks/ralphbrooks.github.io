@@ -17,18 +17,8 @@
       <pubDate>Sun, 02 Jun 2019 12:25:53 -0400</pubDate>
       
       <guid>https://ralphabrooks.com/deep_learning/keras/deep_learning_checklist/</guid>
-      <description>[ ] Define the problem [ ] Identify a way to reliably measure success against a goal [ ] Prepare a validation process that you will use to evaluate models [ ] Vectorize the data [ ] Develop a model that beats a trivial common sense baseline [ ] Refine model architecture [ ] Get your model to overfit
-After overfitting use the following to refine model architecture [ ] Add regularization (dropout) to the model [ ] Downsize the model to use lower capacity</description>
-    </item>
-    
-    <item>
-      <title>Deep Dive on Keras Embedding Layers</title>
-      <link>https://ralphabrooks.com/deep_learning/keras/deep_dive_on_keras_embeddings/</link>
-      <pubDate>Tue, 28 May 2019 12:25:53 -0400</pubDate>
-      
-      <guid>https://ralphabrooks.com/deep_learning/keras/deep_dive_on_keras_embeddings/</guid>
-      <description>It seems that each batch has to have the same length. Different batches can have different lengths.  Like any other layer, the Keras Embedding layer can have its parameters altered during training.
- Depending on the layer that comes after this. It may be worth Flattening this layer  model.</description>
+      <description> Define the problem Identify a way to reliably measure success against a goal Prepare a validation process that you will use to evaluate models Vectorize the data Develop a model that beats a trivial common sense baseline Refine model architecture Get your model to overfit  After overfitting use the following to refine model architecture
+ Add regularization (dropout) to the model Downsize the model to use lower capacity  </description>
     </item>
     
     <item>
