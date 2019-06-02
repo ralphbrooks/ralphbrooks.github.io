@@ -3,14 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ralphabrooks.com/deep_learning/keras/deep_learning_checklist/</loc>
-    <lastmod>2019-06-02T12:25:53-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ralphabrooks.com/</loc>
     <lastmod>2019-06-02T12:25:53-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ralphabrooks.com/deep_learning/keras/deep_learning_checklist/</loc>
+    <lastmod>2019-06-02T12:25:53-04:00</lastmod>
   </url>
   
   <url>
