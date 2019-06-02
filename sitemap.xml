@@ -3,6 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ralphabrooks.com/deep_learning/keras/deep_learning_checklist/</loc>
+    <lastmod>2019-05-31T12:25:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ralphabrooks.com/</loc>
+    <lastmod>2019-05-31T12:25:53-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ralphabrooks.com/deep_learning/keras/deep_dive_on_keras_embeddings/</loc>
+    <lastmod>2019-05-28T12:25:53-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ralphabrooks.com/deep_learning/keras/freezing_layers/</loc>
+    <lastmod>2019-05-28T12:25:53-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ralphabrooks.com/linux/environment/setting_environment_variables_from_script/</loc>
     <lastmod>2019-05-27T12:25:53-04:00</lastmod>
   </url>
@@ -10,12 +31,6 @@
   <url>
     <loc>https://ralphabrooks.com/articles/intro_and_links_to_demo/</loc>
     <lastmod>2019-05-27T12:25:53-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ralphabrooks.com/</loc>
-    <lastmod>2019-05-27T12:25:53-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
