@@ -35,7 +35,7 @@
   "@type": "BlogPosting",
   "headline": "Freezing a layer in Keras",
   "url": "https:\/\/ralphabrooks.com\/deep_learning\/keras\/freezing_layers\/",
-  "wordCount": "51",
+  "wordCount": "80",
   "datePublished": "2019-05-28T12:25:53-04:00",
   "dateModified": "2019-05-28T12:25:53-04:00",
   "author": {
@@ -143,11 +143,13 @@ MathJax.Hub.Config({
   <div class="content">
   <p>To freeze a layer in Keras, use:</p>
 <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">model</span><span class="o">.</span><span class="n">layers</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">trainable</span> <span class="o">=</span> <span class="bp">False</span></code></pre></div>
-<p>This might be done for an Embedding layer in Keras so that you don&rsquo;t forget anything that you
-have already learned in the model.</p>
+<p>Notes:</p>
 
 <ul>
-<li>The large changes in gradient from other parts of the model could be disruptive to this part.</li>
+<li>Typically, the freezing of layers will be done so that weights which are learned in prior stages are not
+forgotten in later layers of the model.</li>
+<li>For example, if you have BERT as one part of a Keras TensorFlow model, that layer might need to be frozen so that
+large changes in gradient that occur during fine tuning do not distrupt the weights that have been learned in BERT.</li>
 </ul>
 
 </div>

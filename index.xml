@@ -6,7 +6,7 @@
     <description>Recent content on Ralph Brooks</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 May 2019 12:25:53 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2019 12:25:53 -0400</lastBuildDate>
     
 	<atom:link href="https://ralphabrooks.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,11 @@
     <item>
       <title>Deep Learning Checklist</title>
       <link>https://ralphabrooks.com/deep_learning/keras/deep_learning_checklist/</link>
-      <pubDate>Fri, 31 May 2019 12:25:53 -0400</pubDate>
+      <pubDate>Sun, 02 Jun 2019 12:25:53 -0400</pubDate>
       
       <guid>https://ralphabrooks.com/deep_learning/keras/deep_learning_checklist/</guid>
-      <description>Define the problem Identify a way to reliably measure success against a goal Prepare a validation process that you will use to evaluate models Vectorize the data Develop a model that beats a trivial common sense baseline Refine model architecture Get your model to overfit After overfitting use the following to refine model architecture a) Add regularization (dropout) to the model b) Downsize the model to use lower capacity  </description>
+      <description>[ ] Define the problem [ ] Identify a way to reliably measure success against a goal [ ] Prepare a validation process that you will use to evaluate models [ ] Vectorize the data [ ] Develop a model that beats a trivial common sense baseline [ ] Refine model architecture [ ] Get your model to overfit
+After overfitting use the following to refine model architecture [ ] Add regularization (dropout) to the model [ ] Downsize the model to use lower capacity</description>
     </item>
     
     <item>
@@ -37,8 +38,8 @@
       
       <guid>https://ralphabrooks.com/deep_learning/keras/freezing_layers/</guid>
       <description>To freeze a layer in Keras, use:
-model.layers[0].trainable = False This might be done for an Embedding layer in Keras so that you don&amp;rsquo;t forget anything that you have already learned in the model.
- The large changes in gradient from other parts of the model could be disruptive to this part.  </description>
+model.layers[0].trainable = False Notes:
+ Typically, the freezing of layers will be done so that weights which are learned in prior stages are not forgotten in later layers of the model. For example, if you have BERT as one part of a Keras TensorFlow model, that layer might need to be frozen so that large changes in gradient that occur during fine tuning do not distrupt the weights that have been learned in BERT.</description>
     </item>
     
     <item>
