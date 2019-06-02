@@ -74,8 +74,9 @@ import numpy as np from sklearn.metrics import confusion_matrix model = &amp;lt;
       <pubDate>Wed, 20 Dec 2017 11:53:49 -0700</pubDate>
       
       <guid>https://ralphabrooks.com/about/ralph_brooks/</guid>
-      <description>I am a data scientist and machine learning engineer in Frisco, TX.
- Twitter: @ralphbrooks LinkedIn: https://www.linkedin.com/in/ralphbrooks/  Currently, I am working on data science as well as building out the infrastructure needed to do distributed deep learning.</description>
+      <description>About Ralph Brooks I am a data scientist and machine learning engineer with over a decade of experience in applying data science, deep learning, and software engineering in order to create value for Fortune 500 companies.
+I am currently living in Frisco, TX.
+ Twitter: @ralphbrooks LinkedIn: https://www.linkedin.com/in/ralphbrooks/  Current Projects Currently, I am working on data science as well as building out the infrastructure needed to do distributed deep learning.</description>
     </item>
     
   </channel>
