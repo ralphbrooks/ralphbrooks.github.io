@@ -4,8 +4,13 @@
   
   <url>
     <loc>https://ralphabrooks.com/</loc>
-    <lastmod>2019-06-02T11:53:49-07:00</lastmod>
+    <lastmod>2019-06-04T12:25:53-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ralphabrooks.com/data_science/approaches_to_class_imbalance/</loc>
+    <lastmod>2019-06-04T12:25:53-04:00</lastmod>
   </url>
   
   <url>
@@ -29,7 +34,7 @@
   </url>
   
   <url>
-    <loc>https://ralphabrooks.com/articles/intro_and_links_to_demo/</loc>
+    <loc>https://ralphabrooks.com/articles/intro/</loc>
     <lastmod>2019-05-27T12:25:53-04:00</lastmod>
   </url>
   

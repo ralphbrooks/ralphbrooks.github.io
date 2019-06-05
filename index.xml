@@ -6,10 +6,22 @@
     <description>Recent content on AI Best Practices</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jun 2019 11:53:49 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jun 2019 12:25:53 -0400</lastBuildDate>
     
 	<atom:link href="https://ralphabrooks.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Freezing a layer in Keras</title>
+      <link>https://ralphabrooks.com/data_science/approaches_to_class_imbalance/</link>
+      <pubDate>Tue, 04 Jun 2019 12:25:53 -0400</pubDate>
+      
+      <guid>https://ralphabrooks.com/data_science/approaches_to_class_imbalance/</guid>
+      <description>In situations where there is class imbalance, it is helpful to look not only at accuracy, but to look at
+ Precision Recall F1 scores  Deep learning approches to get better balancing include:
+assigning weights when doing the fit.
+Using focal_loss for the loss method</description>
+    </item>
     
     <item>
       <title>About Ralph Brooks</title>
@@ -58,14 +70,12 @@ chmod +x environ.sh 3) Execute the script with a dot space prefix.</description>
     </item>
     
     <item>
-      <title>Introduction and Links to NLP Demo</title>
-      <link>https://ralphabrooks.com/articles/intro_and_links_to_demo/</link>
+      <title>Introduction</title>
+      <link>https://ralphabrooks.com/articles/intro/</link>
       <pubDate>Mon, 27 May 2019 12:25:53 -0400</pubDate>
       
-      <guid>https://ralphabrooks.com/articles/intro_and_links_to_demo/</guid>
-      <description>I am a data scientist and machine learning engineer in Frisco, TX where I am working on items at the interaction of deep learning, natural language processing, and Bayesian statistics.
-Currently, I am working on ways to detect emotion in language. Some of my work is at:
- Toxic Classififer Detection of sentiment vs neutral  </description>
+      <guid>https://ralphabrooks.com/articles/intro/</guid>
+      <description>I am a data scientist and machine learning engineer in Frisco, TX where I am working on items at the interaction of deep learning, natural language processing, and Bayesian statistics.</description>
     </item>
     
     <item>
