@@ -6,21 +6,44 @@
     <description>Recent content on AI Best Practices</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jun 2019 12:25:53 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jul 2019 12:25:53 -0400</lastBuildDate>
     
 	<atom:link href="https://ralphabrooks.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Deep Learning Dictionary</title>
+      <link>https://ralphabrooks.com/deep_learning/general/deep_learning_dictionary/</link>
+      <pubDate>Sun, 14 Jul 2019 12:25:53 -0400</pubDate>
+      
+      <guid>https://ralphabrooks.com/deep_learning/general/deep_learning_dictionary/</guid>
+      <description>Catastrophic Forgetting : A situation where the model forgets the task on which it was originally trained. Discussed in NAACL 2019 Transfer Learning Tutorial Slides
+Internal Covariate Shift : This is the change in the distributions of internal nodes of a deep network. Discussed in Machine Learning Mastery.
+Sequential Adaptation : Intermediate fine-tuning on related datasets and tasks.</description>
+    </item>
+    
+    <item>
+      <title>General Notes</title>
+      <link>https://ralphabrooks.com/deep_learning/general/general_notes/</link>
+      <pubDate>Sun, 14 Jul 2019 12:25:53 -0400</pubDate>
+      
+      <guid>https://ralphabrooks.com/deep_learning/general/general_notes/</guid>
+      <description>The following are a collection of general random notes that I have collected. They are not organized, but may be informative.
+TF has a addons repo which contains things that are not in the core Tensorflow repo.
+ Tensorflow has a models repo which shows best practices.
+ Use tf.summary.histogram in order to record relevant tensors. This can be later examined within TensorBoard.
+ In tf 1.13, you can use tf.</description>
+    </item>
+    
+    <item>
       <title>Freezing a layer in Keras</title>
-      <link>https://ralphabrooks.com/data_science/approaches_to_class_imbalance/</link>
+      <link>https://ralphabrooks.com/data_science/general/approaches_to_class_imbalance/</link>
       <pubDate>Tue, 04 Jun 2019 12:25:53 -0400</pubDate>
       
-      <guid>https://ralphabrooks.com/data_science/approaches_to_class_imbalance/</guid>
+      <guid>https://ralphabrooks.com/data_science/general/approaches_to_class_imbalance/</guid>
       <description>In situations where there is class imbalance, it is helpful to look not only at accuracy, but to look at
  Precision Recall F1 scores  Deep learning approches to get better balancing include:
-assigning weights when doing the fit.
-Using focal_loss for the loss method</description>
+ Assigning weights when doing the fit Using focal_loss for the loss method  </description>
     </item>
     
     <item>

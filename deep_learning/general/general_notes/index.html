@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66582-32"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-66582-32');
+    </script>
+
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="General Notes" />
+<meta property="og:description" content="General Notes" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ralphabrooks.com/deep_learning/general/general_notes/" />
+<meta property="article:published_time" content="2019-07-14T12:25:53-04:00"/>
+<meta property="article:modified_time" content="2019-07-14T12:25:53-04:00"/>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="General Notes"/>
+<meta name="twitter:description" content="General Notes"/>
+<meta name="generator" content="Hugo 0.55.6" /> 
+    
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "General Notes",
+  "url": "https:\/\/ralphabrooks.com\/deep_learning\/general\/general_notes\/",
+  "wordCount": "2054",
+  "datePublished": "2019-07-14T12:25:53-04:00",
+  "dateModified": "2019-07-14T12:25:53-04:00",
+  "author": {
+    "@type": "Person",
+    "name": "Ralph Brooks"
+  },
+  "description": "General Notes"
+}
+</script> 
+
+    <title>General Notes</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+
+    
+    <link href="https://ralphabrooks.com/css/custom.css" rel="stylesheet"> 
+    <link href="https://ralphabrooks.com/css/syntax.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,500,700" rel="stylesheet">
+        
+    <link href="" rel="alternate" type="application/rss+xml" title="AI Best Practices" /> 
+    
+    <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="https://ralphabrooks.com/">Ralph Brooks</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav mr-auto"></ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            ML/AI Notes
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://ralphabrooks.com/#deep_learning">Deep Learning</a>
+                            <a class="dropdown-item" href="https://ralphabrooks.com/#linux">Command Line</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://ralphabrooks.com/#articles">Articles</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            About
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://ralphabrooks.com/about/ralph_brooks/">About Ralph</a>
+                            <a class="dropdown-item" href="https://github.com/ralphbrooks">GitHub</a>
+                            <a class="dropdown-item" href="https://twitter.com/ralphbrooks">Twitter</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+
+                 
+
+
+<article>
+  <div class="technical_note">
+  <header>
+      <div class="alert alert-warning flashcard_ad" role="alert">
+          If you like what you see here, please post this website on other sites. Message me directly on <a href='https://twitter.com/ralphbrooks'>Twitter</a> with any comments.
+      </div>
+    <h1 class="technical_note_title">General Notes</h1>
+    <div class="technical_note_date">
+      <time datetime=" 2019-07-14T12:25:53-04:00 "> 14 Jul 2019</time>
+    </div>
+  </header>
+  <div class="content">
+  
+
+<p>The following are a collection of general random notes that I have collected. They are not organized, but may be informative.</p>
+
+<p>TF has a addons repo which contains things that are not in the core Tensorflow repo.</p>
+
+<ul>
+<li><p>Tensorflow has a models repo which shows best practices.</p></li>
+
+<li><p>Use  tf.summary.histogram in order to record relevant tensors. This can be later examined within TensorBoard.</p></li>
+
+<li><p>In tf 1.13, you can use tf.train.Saver() in order to save the session as a model checkpoint.</p></li>
+
+<li><p>Items in the TensorBoard graph session that are not needed can be &ldquo;removed from main graph&rdquo;.</p></li>
+
+<li><p>Items with the same color in Tensorboard have the same substructure.</p></li>
+
+<li><p>summ = tf.summary.merge_all is going to get every summary in the whole graph.</p>
+
+<ul>
+<li>This is exported to disk with writer.add_summary(summ, step_no)
+<br /></li>
+</ul></li>
+
+<li><p>You can place everything in one group by using .* within tensorboard</p></li>
+
+<li><p>Toggle all runs is going to select everything .</p></li>
+
+<li><p>Relative time is going to show everything from the same start.</p></li>
+
+<li><p>Beholder looks at the trate of change of the tensors. It is not just what you are seeing but what is also being computed.</p>
+
+<ul>
+<li>If columns are similar, this means that there could be redunancy within the network.
+<br /></li>
+</ul></li>
+</ul>
+
+<h3 id="tensorflow-tensorboard-viz-and-debugger">Tensorflow Tensorboard Viz and Debugger</h3>
+
+<ul>
+<li>There is the suggestion that I need to use something similar to the following to get tensorboard debug hook to work</li>
+</ul>
+
+<p>hook = tf_debug.TensorBoardDebugHook(&ldquo;localhost:6064)</p>
+
+<ul>
+<li>Dandelion looks at an embedding projector for SmartReply5k.</li>
+
+<li><p>He has it set up to show text (the text in this case is the &ldquo;label&rdquo;)</p></li>
+
+<li><p>Gender relationship of word2vec can be mapped out
+Define axis to be the &ldquo;differences&rdquo; between different words</p></li>
+</ul>
+
+<p>2019-06-07</p>
+
+<ul>
+<li>One way to examine categorical data is to use embeddings.</li>
+</ul>
+
+<p>2019-06-10</p>
+
+<ul>
+<li>The OpenAI way of approaching debugging is that you have to look at EVERY line. You have to determine if any given line even has the possibility
+of causing poor results in the model.</li>
+</ul>
+
+<p>2019-06-11</p>
+
+<ul>
+<li>The more layers and the more neurons in the model, the more powerful the model, but this in turn means that more data is required to train the model.</li>
+</ul>
+
+<p>2019-06-20
+* There is the concept of curriculum learning which can be applied to text generation.
+* repr to get the string representation</p>
+
+<p><a href="https://github.com/zihangdai/xlnet">https://github.com/zihangdai/xlnet</a>
+<a href="https://arxiv.org/pdf/1906.08237.pdf">https://arxiv.org/pdf/1906.08237.pdf</a></p>
+
+<p>XLNet - it is difficult to train on GPU with 16GB - This would only how a single sequence of length 512. Because of the memory
+constraints, a large number of GPUs (32-128) would be needed in order to train XLNet.
+* Run classifier would need to be used in order to do the fine-tuning</p>
+
+<p>tf.data.Dataset is designed to work with potentially infinite sequences</p>
+
+<p>glorot_uniform initialization</p>
+
+<p>The output of any prediction is a probability. That probability has to be sampled in order to create the generative model.</p>
+
+<p>squeeze removes dimensions of size 1 from the tensor.</p>
+
+<p>you can even look at the loss over one iteration. Make sure everything is running before running the full model.</p>
+
+<p>google puts the tests right there next to the code for keras</p>
+
+<p>For tf.data.Dataset, you can actually enumerate from the dataset as well as take from it</p>
+
+<ul>
+<li><p>You can customize the training of a Keras model using GradientTape</p></li>
+
+<li><p>Covariate shift is the way to measure the change in distributions between train and test</p></li>
+</ul>
+
+<p>2019-06-21 -
+Organization of NLU topics by representation</p>
+
+<p>2019-06-24</p>
+
+<p>Coocurrence matrics</p>
+
+<ul>
+<li>Glove and word2vec take care of the reweighting and the dimensionality reduction</li>
+<li>Word x document is going to be a sparse matrix</li>
+
+<li><p>Word x Discourse -  Switchboard Dialog Act Corpus</p></li>
+
+<li><p>Semantic meaning is being derived from these cooccurence matrix</p></li>
+
+<li><p>coccurenence based on the window or cooccurence with scaling</p></li>
+
+<li><p>larger flatter windows contain more semantic information</p></li>
+
+<li><p>There could be normalization based on distance.</p></li>
+
+<li><p>KL divergence wants to divide by Q. So you have to add a small value to Q to make sure that the equation does not fail.</p></li>
+
+<li><p>KL is probabilistic - It has to be a lot of positive values so that the normalization makes sense</p></li>
+</ul>
+
+<p>Representation of natural objects with a handful of features that you can measure</p>
+
+<p>Pointwise Mutual Information - observed / expected in log space</p>
+
+<p>Retrofitting</p>
+
+<p>Modal Adverbs could give some type of signal</p>
+
+<p>Moritz -
+Political Polling
+What qualities do you look for  - Richer feedback  - He just used PMI and LSA</p>
+
+<p>2019-06-24 - after Lunch</p>
+
+<p>What is the approach for long texts?
+Parse trees does not work well beyond single sentences
+RNN as an autoencoder
+Doc2Vec when is going to come up with a word vector as well as a document vector</p>
+
+<p>Sequence Prediction Metrics -
+* Word error rate (WER)
+* BLEU
+* Perplexity</p>
+
+<p>!! You can text a model by first getting an example batch from the dataset</p>
+
+<p>In tf.keras.Model, call is the forward execution of the layers. A tf.keras.model is going to have:
+* definition of the layers
+* Call - Which is the forward pass of the layers</p>
+
+<p>2019-06-25:</p>
+
+<p><a href="https://nostalgebraist.tumblr.com/post/185326092369/the-transformer-explained">https://nostalgebraist.tumblr.com/post/185326092369/the-transformer-explained</a></p>
+
+<ul>
+<li>A fully connected network is great when there is no relationship between the features. This works really well
+in regression but it would not work as well when looking at a sequence of data (such as what is in text).</li>
+</ul>
+
+<p>2019-06-27</p>
+
+<p><a href="https://colab.research.google.com/drive/1wYZ21nyAaBsGwY3WktFCI3IKit5EDeV1#scrollTo=wImj6bBHZJQP">https://colab.research.google.com/drive/1wYZ21nyAaBsGwY3WktFCI3IKit5EDeV1#scrollTo=wImj6bBHZJQP</a>
+<a href="https://github.com/hanxiao/bert-as-service/blob/master/example/example5.py">https://github.com/hanxiao/bert-as-service/blob/master/example/example5.py</a>
+<a href="https://hanxiao.github.io/2019/01/02/Serving-Google-BERT-in-Production-using-Tensorflow-and-ZeroMQ/">https://hanxiao.github.io/2019/01/02/Serving-Google-BERT-in-Production-using-Tensorflow-and-ZeroMQ/</a></p>
+
+<p>2019-07-01</p>
+
+<p>CONCEPTS REVIEWED:
+Transformer
+Positional Encoding
+Batch Normalization
+Tensor2Tensor Diagnostic Tools</p>
+
+<p>RELEVANT LINKS:
+<a href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/text/transformer.ipynb#scrollTo=_fXvfYVfQr2n">https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/text/transformer.ipynb#scrollTo=_fXvfYVfQr2n</a>
+<a href="https://colab.research.google.com/github/tensorflow/examples/blob/master/community/en/position_encoding.ipynb">https://colab.research.google.com/github/tensorflow/examples/blob/master/community/en/position_encoding.ipynb</a>
+<a href="http://nlp.seas.harvard.edu/2018/04/03/attention.html#positional-encoding">http://nlp.seas.harvard.edu/2018/04/03/attention.html#positional-encoding</a>
+<a href="http://karpathy.github.io/2019/04/25/recipe/">http://karpathy.github.io/2019/04/25/recipe/</a>
+<a href="https://colab.research.google.com/github/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/hello_t2t.ipynb">https://colab.research.google.com/github/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/hello_t2t.ipynb</a></p>
+
+<p>COMPLETED:
+Positional Encoding understanding
+x TF 2.0 Transformer
+O Get understanding of transfer learning tutorial
+O Make appropriate changes to BertLayer
+x Karpathy - A recipe for training neural networks</p>
+
+<ul>
+<li>The BERT paper states that feature-based approach (similar to the elmo approach) requires fine tuning all parameters.</li>
+<li>Unlike GPT, BERT is bi-directional.</li>
+
+<li><p>ELMO looks at context sensitive features.</p></li>
+
+<li><p>Transfer learning results in SOTA for Information Extraction.</p></li>
+
+<li><p>Transformer uses stacks of variable sized utterances through the use of self-attention layers.</p></li>
+
+<li><p>If you have a small dataset, you can cache the dataset to memory in order to get a speedup while reading it
+** This is done with dataset.cache()</p></li>
+</ul>
+
+<h1 id="https-colab-research-google-com-github-tensorflow-docs-blob-master-site-en-r2-tutorials-text-transformer-ipynb-scrollto-fxvfyvfqr2n"><a href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/text/transformer.ipynb#scrollTo=_fXvfYVfQr2n">https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/tutorials/text/transformer.ipynb#scrollTo=_fXvfYVfQr2n</a></h1>
+
+<ul>
+<li>A positional encoding is going to show how similar the meaning of the words are along with the position in the sentence.</li>
+</ul>
+
+<p>np.newaxis is going to change the shape of the tensor</p>
+
+<ul>
+<li><p>Relative position encoding is a linear function of current position encoding</p>
+
+<ul>
+<li>As seen in the below, tf.math.equal can be used in order to create a mask:</li>
+</ul></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">create_padding_mask</span><span class="p">(</span><span class="n">seq</span><span class="p">):</span>
+  <span class="n">seq</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">cast</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">math</span><span class="o">.</span><span class="n">equal</span><span class="p">(</span><span class="n">seq</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="n">tf</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
+  
+  <span class="c1"># add extra dimensions so that we can add the padding</span>
+  <span class="c1"># to the attention logits.</span>
+  <span class="k">return</span> <span class="n">seq</span><span class="p">[:,</span> <span class="n">tf</span><span class="o">.</span><span class="n">newaxis</span><span class="p">,</span> <span class="n">tf</span><span class="o">.</span><span class="n">newaxis</span><span class="p">,</span> <span class="p">:]</span>  <span class="c1"># (batch_size, 1, 1, seq_len)</span></code></pre></div>
+<p>Batch normalization ( Batch norm) standardizes the inputs. It should make the model faster to train.
+* Batch norm should make larger learning rates possible.
+* Batch norm SHOULD NOT BE USED WITH DROPOUT
+* layers.BatchNormalization is the way to use this with Keras</p>
+
+<p>Transformer - This is a set of encoders and decoders</p>
+
+<p>2019-07-02</p>
+
+<p>CONCEPTS REVIEWED:
+Transformer
+GPT-2
+Bert and Pals - Adapters
+Bert Squad Classification and changing the Bert Output/head</p>
+
+<p>RELEVANT LINKS
+<a href="http://jalammar.github.io/illustrated-transformer/">http://jalammar.github.io/illustrated-transformer/</a>
+<a href="https://blog.floydhub.com/gpt2/">https://blog.floydhub.com/gpt2/</a>
+<a href="https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadvJfc/edit#slide=id.g5888218f39_41_2">https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadvJfc/edit#slide=id.g5888218f39_41_2</a>
+NAACL 2019 - Transfer Learning Tutorial</p>
+
+<ul>
+<li>With respect to the transformer model, &ldquo;multi-headed&rdquo; attention expands the model’s ability to focus on different positions.</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">tf</span><span class="o">.</span><span class="n">transpose</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">perm</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">])</span></code></pre></div>
+<ul>
+<li><p>tf.transpose can shift the order of the axis</p></li>
+
+<li><p>Generative word prediction could not use the transformer because the transformer requires part of the sentence in order to be able to work</p></li>
+
+<li><p>BERT has 340M parameters</p></li>
+
+<li><p>GPT-2 has 1.5 billion parameters</p></li>
+</ul>
+
+<p><a href="https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadvJfc/edit#slide=id.g5888218f39_41_2">https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadvJfc/edit#slide=id.g5888218f39_41_2</a>
+* Slides suggest to keep the network activations static or frozen in the first approach</p>
+
+<ul>
+<li>Second method is some type of behavioral probe</li>
+<li>SAT analogies are a way of understanding morphology - This is the transformation of words.</li>
+</ul>
+
+<p><a href="https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadvJfc/edit#slide=id.g5888218f39_50_189">NAACL Transfer learning tutorial</a>
+* Transfer learning tutorial slide 92 suggests that if pretraining was not used then erasing entire words could help to detect what is important
+in a sentiment analysis task</p>
+
+<p><a href="https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadvJfc/edit#slide=id.g5888218f39_50_189">NAACL Transfer learning tutorial</a>
+* Slide 96 suggests that the construction of probes could be another way to analzye what is happening with the model</p>
+
+<ul>
+<li><p>There is discussion about gradual unfreezing. Is this something that I missed?</p></li>
+
+<li><p>Changing the pre-trained weights is called fine-tuning</p></li>
+
+<li><p>Not changing the pretrained weights = feature-extraction, adapters</p></li>
+</ul>
+
+<p><a href="https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadvJfc/edit#slide=id.g5888218f39_50_189">Slide 130 - NAACL Transfer learning tutorial</a>
+* This slide suggests that embeddings can be placed before the backbone</p>
+
+<ul>
+<li><p>Regardless of the freezing approach, you are going to end up training all of the layers in the end.</p>
+
+<ul>
+<li>Not sure but this might be dependent on the data that you have for feature extraction.
+<br /></li>
+</ul></li>
+
+<li><p>Learning rate warmup is useds in Transformer (Vaswani NIPS 2017)</p></li>
+</ul>
+
+<p><a href="https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadvJfc/edit#slide=id.g5888218f39_50_189">Slide 167 - NAACL Transfer learning tutorial</a>
+* Feature Extraction training of pretrained models is said to be slow compared to fine tuning.</p>
+
+<p><a href="https://docs.google.com/presentation/d/1fIhGikFPnb7G5kr58OvYC3GN4io7MznnM0aAgadvJfc/edit#slide=id.g5888218f39_50_189">Slide 184 - NAACL Transfer learning tutorial</a></p>
+
+<p>2019-07-03</p>
+
+<p>CONCEPTS REVIEWED:
+BERT
+Squad
+Semi-Supervised Cross-View Training
+Cloze-driven Pretraining of Self-attention Networks</p>
+
+<p>RELEVANT LINKS:
+<a href="http://thomwolf.io/data/Meetup_Deep_Learning_Paris_2019_01_30.pdf">Natural Language Generation Slides</a>
+<a href="https://arxiv.org/pdf/1809.08370.pdf">Semi-Supervised Cross-View Training</a>
+<a href="https://arxiv.org/abs/1903.07785">Cloze-driven Pretraining of Self-attention Networks</a></p>
+
+<ul>
+<li>It is possible to initialize as you get a new variable. Code looks like:</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python">  <span class="n">output_weights</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">get_variable</span><span class="p">(</span>
+      <span class="s2">&#34;cls/squad/output_weights&#34;</span><span class="p">,</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="n">hidden_size</span><span class="p">],</span>
+      <span class="n">initializer</span><span class="o">=</span><span class="n">tf</span><span class="o">.</span><span class="n">truncated_normal_initializer</span><span class="p">(</span><span class="n">stddev</span><span class="o">=</span><span class="mf">0.02</span><span class="p">))</span></code></pre></div>
+<ul>
+<li>Tensorflow Hub code is black box.
+
+<ul>
+<li>You don&rsquo;t have access to the source code.</li>
+<li>You can&rsquo;t modify the internals of the model (can&rsquo;t add Adapters)
+<br /></li>
+</ul></li>
+</ul>
+
+<p>2019-07-08</p>
+
+<ul>
+<li>There is the idea that if I had the final hidden matrix then I could reshape that and build the classifier on top of that.</li>
+<li>It is key to take a look at run classif</li>
+</ul>
+
+<p>2019-07-09</p>
+
+<ul>
+<li>Shapes of the Keras inputs are matched against the shapes of the input tensors.
+
+<ul>
+<li>Py_func has the ability to generate unknown shaped tensors which causes the Keras model to fail</li>
+<li>The fix is that you have to use set_shape for each tensor returned from py_func
+<br /></li>
+</ul></li>
+</ul>
+
+<p>REVIEW OF PREVIOUS WORK</p>
+
+<ul>
+<li>The estimator actually has to keep track of training</li>
+
+<li><p>At the time, I switched from Estimator to Keras</p></li>
+
+<li><p>The estimator would actually tell you what the outputs would be - but those outputs were raw tensors</p></li>
+
+<li><p>Part of the shift was that Keras is a first class citizen in TF 2.0</p></li>
+
+<li><p>Because everything was based off of the original graph. The signature had to be based off of a lot of placeholders</p></li>
+
+<li><p>I could never get a clear idea of the accuracy of the estimator model</p></li>
+
+<li><p>Completion of the tests was a total mess. It was not in a testing framework and run in an ad hoc manner.</p></li>
+
+<li><p>The process was 10 minutes - 2 hours. Now I can iterate in around 2 minutes.</p></li>
+
+<li><p>As opposed to a clean interface (py_func - &gt; inputs) there was a really messy interface that required
+grpc server and flask to be inside the same docker container</p></li>
+
+<li><p>All of this was with the original data - it was not even looking at postive, negative, and neutral</p></li>
+</ul>
+
+<p>** In previous work, there was a</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">tf</span><span class="o">.</span><span class="n">estimator</span><span class="o">.</span><span class="n">export</span><span class="o">.</span><span class="n">PredictOutput</span></code></pre></div>
+<p>2019-07-10
+CONCEPTS REVIEWED:
+BERT
+tf.keras.metrics.Accuracy</p>
+
+<p>RELEVANT LINKS:</p>
+
+<ul>
+<li>The reference implementation does state of the art and it only has one dense layer with activation</li>
+</ul>
+
+<p>WHY EXACTLY IS BERT using a custom optimizer????</p>
+
+<ul>
+<li>Keras relies on model.fit, model.evauate, model.predict</li>
+</ul>
+
+<p>2019-07-11
+CONCEPTS REVIEWED:
+tf.keras.Model.fit</p>
+
+<p>RELEVANT LINKS:</p>
+
+<p>NOTES:
+keras fit is traditionally used for data that fits in memory
+fit_generator is typically used for streaming batches of data as a generator</p>
+
+<p>It is rumored that tf.layers has gone away in tensorflow 2.0</p>
+
+<p>2019-07-11
+CONCEPTS REVIEWED:
+tf.estimator tutorial</p>
+
+<p>RELEVANT LINKS:
+<a href="https://stackoverflow.com/questions/48295788/using-a-keras-model-inside-a-tf-estimator">https://stackoverflow.com/questions/48295788/using-a-keras-model-inside-a-tf-estimator</a>
+<a href="https://github.com/awslabs/amazon-sagemaker-examples/blob/master/sagemaker-python-sdk/tensorflow_abalone_age_predictor_using_keras/abalone.py">https://github.com/awslabs/amazon-sagemaker-examples/blob/master/sagemaker-python-sdk/tensorflow_abalone_age_predictor_using_keras/abalone.py</a>
+<a href="https://guillaumegenthial.github.io/introduction-tensorflow-estimator.html">https://guillaumegenthial.github.io/introduction-tensorflow-estimator.html</a></p>
+
+<p>NOTES:
+Estimators have no explicit session</p>
+
+<ul>
+<li><a href="https://guillaumegenthial.github.io/introduction-tensorflow-estimator.html">https://guillaumegenthial.github.io/introduction-tensorflow-estimator.html</a></li>
+<li>When feeding strings into your graph, you need to feed the string in bytes</li>
+</ul>
+
+<p>You can open multiple files simultaneously and process simultaneously with zip. This is shown in the following:</p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"> <span class="k">def</span> <span class="nf">generator_fn</span><span class="p">(</span><span class="n">words</span><span class="p">,</span> <span class="n">tags</span><span class="p">):</span>
+     <span class="k">with</span> <span class="n">Path</span><span class="p">(</span><span class="n">words</span><span class="p">)</span><span class="o">.</span><span class="nb">open</span><span class="p">(</span><span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f_words</span><span class="p">,</span> <span class="n">Path</span><span class="p">(</span><span class="n">tags</span><span class="p">)</span><span class="o">.</span><span class="nb">open</span><span class="p">(</span><span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f_tags</span><span class="p">:</span>
+         <span class="k">for</span> <span class="n">line_words</span><span class="p">,</span> <span class="n">line_tags</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">f_words</span><span class="p">,</span> <span class="n">f_tags</span><span class="p">):</span>
+             <span class="k">yield</span> <span class="n">parse_fn</span><span class="p">(</span><span class="n">line_words</span><span class="p">,</span> <span class="n">line_tags</span><span class="p">)</span></code></pre></div>
+<ul>
+<li><p>Not sure how to handle the fact that I am generating MULTIPLE predictions</p></li>
+
+<li><p><a href="https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/guide/keras.ipynb">https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/guide/keras.ipynb</a></p></li>
+
+<li><p>In order to define a custom layer, you need to have the following</p>
+
+<ul>
+<li>build - Create the weights of the layer</li>
+<li>call - do the forward pass</li>
+<li>compute output shape
+<br /></li>
+</ul></li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"> <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">callbacks</span><span class="o">.</span><span class="n">LearningRateScheduler</span> <span class="c1"># This changes the learning rates</span></code></pre></div>
+<p>GradientTape is used to trace operations in order to compute gradients later</p>
+
+<ul>
+<li>The calculation of the loss needs to capture the gradient in order for gradient descent to occur. This looks like the following:</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">grad</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">):</span>
+  <span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">GradientTape</span><span class="p">()</span> <span class="k">as</span> <span class="n">tape</span><span class="p">:</span>
+    <span class="n">loss_value</span> <span class="o">=</span> <span class="n">loss</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">inputs</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+  <span class="k">return</span> <span class="n">tape</span><span class="o">.</span><span class="n">gradient</span><span class="p">(</span><span class="n">loss_value</span><span class="p">,</span> <span class="p">[</span><span class="n">model</span><span class="o">.</span><span class="n">W</span><span class="p">,</span> <span class="n">model</span><span class="o">.</span><span class="n">B</span><span class="p">])</span></code></pre></div>
+<ul>
+<li><a href="https://www.tensorflow.org/guide/datasets">https://www.tensorflow.org/guide/datasets</a></li>
+<li>You can merge datasets together by zipping them</li>
+</ul>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">dataset3</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">Dataset</span><span class="o">.</span><span class="nb">zip</span><span class="p">((</span><span class="n">dataset1</span><span class="p">,</span> <span class="n">dataset2</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dataset3</span><span class="o">.</span><span class="n">output_types</span><span class="p">)</span>  <span class="c1"># ==&gt; (tf.float32, (tf.float32, tf.int32))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">dataset3</span><span class="o">.</span><span class="n">output_shapes</span><span class="p">)</span>  <span class="c1"># ==&gt; &#34;(10, ((), (100,)))&#34;</span></code></pre></div>
+<ul>
+<li>In eager execution, performance automatically goes to the GPU.<br /></li>
+</ul>
+
+</div>
+  <aside>
+      <div class="bug_reporting">
+          <h4>Find an error or bug?</h4>
+          <p>Everything on this site is available on GitHub. Head to GitHub <a href='https://github.com/ralphbrooks/notes/issues/new'>and submit a suggested change</a>.</p>
+      </div>
+      </aside>
+
+    </div>
+</article>
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    <footer class="footer text-center">
+        <div class="container">
+            <span class="text-muted">This project contains 9 pages and is available on <a href="https://github.com/ralphbrooks/notes">GitHub</a>. Copyright &copy; Ralph Brooks, <time datetime="2019">2019</time>.</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
