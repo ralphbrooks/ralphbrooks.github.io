@@ -36,7 +36,7 @@ TF has a addons repo which contains things that are not in the core Tensorflow r
     </item>
     
     <item>
-      <title>Freezing a layer in Keras</title>
+      <title>Approaches to Class Imbalance</title>
       <link>https://ralphabrooks.com/data_science/general/approaches_to_class_imbalance/</link>
       <pubDate>Tue, 04 Jun 2019 12:25:53 -0400</pubDate>
       
