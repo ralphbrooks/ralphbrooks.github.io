@@ -16,16 +16,16 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Using a confusion matrix within Keras" />
-<meta property="og:description" content="Using a confusion matrix within Keras" />
+<meta property="og:title" content="Categorical Cross Entropy" />
+<meta property="og:description" content="Categorical Cross Entropy" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ralphabrooks.com/deep_learning/keras/using_confusion_matrix_with_keras/" />
-<meta property="article:published_time" content="2019-05-27T12:25:53-04:00"/>
-<meta property="article:modified_time" content="2019-05-27T12:25:53-04:00"/>
+<meta property="og:url" content="https://ralphabrooks.com/deep_learning/dictionary/categoricalcrossentropy/" />
+<meta property="article:published_time" content="2019-07-27T11:18:53-04:00"/>
+<meta property="article:modified_time" content="2019-07-27T11:18:53-04:00"/>
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Using a confusion matrix within Keras"/>
-<meta name="twitter:description" content="Using a confusion matrix within Keras"/>
+<meta name="twitter:title" content="Categorical Cross Entropy"/>
+<meta name="twitter:description" content="Categorical Cross Entropy"/>
 <meta name="generator" content="Hugo 0.55.6" /> 
     
     
@@ -33,20 +33,20 @@
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Using a confusion matrix within Keras",
-  "url": "https:\/\/ralphabrooks.com\/deep_learning\/keras\/using_confusion_matrix_with_keras\/",
-  "wordCount": "68",
-  "datePublished": "2019-05-27T12:25:53-04:00",
-  "dateModified": "2019-05-27T12:25:53-04:00",
+  "headline": "Categorical Cross Entropy",
+  "url": "https:\/\/ralphabrooks.com\/deep_learning\/dictionary\/categoricalcrossentropy\/",
+  "wordCount": "54",
+  "datePublished": "2019-07-27T11:18:53-04:00",
+  "dateModified": "2019-07-27T11:18:53-04:00",
   "author": {
     "@type": "Person",
     "name": "Ralph Brooks"
   },
-  "description": "Using a confusion matrix within Keras"
+  "description": "Categorical Cross Entropy"
 }
 </script> 
 
-    <title>Using a confusion matrix within Keras</title>
+    <title>Categorical Cross Entropy</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
@@ -135,24 +135,20 @@ MathJax.Hub.Config({
       <div class="alert alert-warning flashcard_ad" role="alert">
           If you like what you see here, please post this website on other sites. Message me directly on <a href='https://twitter.com/ralphbrooks'>Twitter</a> with any comments.
       </div>
-    <h1 class="technical_note_title">Using a confusion matrix within Keras</h1>
+    <h1 class="technical_note_title">Categorical Cross Entropy</h1>
     <div class="technical_note_date">
-      <time datetime=" 2019-05-27T12:25:53-04:00 "> 27 May 2019</time>
+      <time datetime=" 2019-07-27T11:18:53-04:00 "> 27 Jul 2019</time>
     </div>
   </header>
   <div class="content">
-  <p>Assuming that y_label are the actual gold standard labels that you want to evaluate, you can use sklearn&rsquo;s confusion matrix
-function in order to evaluate a keras model.</p>
+  <p>These are some additional notes that I am taking on the incredible book by David Foster on <a target="_blank" href="https://www.amazon.com/Generative-Deep-Learning-Teaching-Machines/dp/1492041947?&_encoding=UTF8&tag=ralphbrooks-20&linkCode=ur2&linkId=56166717a12536849e1d3edbbb76330b&camp=1789&creative=9325">Generative Deep Learning</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=ralphbrooks-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /></p>
 
-<p>Code would look like the following</p>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
-<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">confusion_matrix</span>
+<p>The calculation for this is:</p>
 
-<span class="n">model</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">use</span> <span class="n">your</span> <span class="n">favorite</span> <span class="n">keras</span> <span class="n">model</span> <span class="n">here</span><span class="o">&gt;</span> 
+<p>$$\Huge - \overset{n}{\underset{i = 1}{\Sigma}} y_i\space log(p_i)$$</p>
 
-<span class="n">y_pred</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">test_data</span><span class="p">,</span> <span class="n">test_labels</span><span class="p">)</span>
-<span class="n">y_pred_max</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">apply_along_axis</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span> <span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">arr</span><span class="o">=</span><span class="n">y_pred</span><span class="p">)</span>
-<span class="n">cm</span> <span class="o">=</span> <span class="n">confusion_matrix</span><span class="p">(</span><span class="n">test_label</span><span class="p">,</span> <span class="n">y_pred_max</span><span class="p">)</span></code></pre></div>
+<p>This simply shows the log of the prediction times the ground truth. Then you sum all of this up for each data point.</p>
+
 </div>
   <aside>
       <div class="bug_reporting">
