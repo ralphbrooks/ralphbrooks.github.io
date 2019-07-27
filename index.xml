@@ -17,9 +17,9 @@
       <pubDate>Sun, 14 Jul 2019 12:25:53 -0400</pubDate>
       
       <guid>https://ralphabrooks.com/deep_learning/general/deep_learning_dictionary/</guid>
-      <description>Catastrophic Forgetting : A situation where the model forgets the task on which it was originally trained. Discussed in NAACL 2019 Transfer Learning Tutorial Slides
-Internal Covariate Shift : This is the change in the distributions of internal nodes of a deep network. Discussed in Machine Learning Mastery.
-Sequential Adaptation : Intermediate fine-tuning on related datasets and tasks.</description>
+      <description>Additive Smoothing : When calculating the maximum likelihood estimate $\theta_j$, you want to make sure that even unlikely possibilities could be generated in the additive model. Discussed in Generative Deep Learning - July 2019 - David Foster - Chapter 1
+Activations : These are tne nonlinearities that rae introduced within Dense layers.
+ Sigmoid - This is used for multiclass classification (when an item can belong to more than one class ).</description>
     </item>
     
     <item>
