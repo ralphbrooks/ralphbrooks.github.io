@@ -6,10 +6,19 @@
     <description>Recent content on AI Best Practices</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jul 2019 11:18:53 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2019 11:18:53 -0400</lastBuildDate>
     
 	<atom:link href="https://ralphabrooks.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Covariate Shift</title>
+      <link>https://ralphabrooks.com/deep_learning/dictionary/covariateshift/</link>
+      <pubDate>Sun, 28 Jul 2019 11:18:53 -0400</pubDate>
+      
+      <guid>https://ralphabrooks.com/deep_learning/dictionary/covariateshift/</guid>
+      <description>These are some additional notes that I am taking on the incredible book by David Foster on Generative Deep LearningThis is the change in the distributions of the internal nodes of a deep network. Foster states in chapter 2 of the Generative Deep Learning book that the longer that a network trains, the greater the possibility that the weights could move from the random initial values and this in turn could lead to NaN errors.</description>
+    </item>
     
     <item>
       <title>Categorical Cross Entropy</title>
